@@ -1,0 +1,38 @@
+# =========================
+# Core Deep Learning Stack
+# =========================
+torch>=2.1.0          # GPU-optimized PyTorch
+torchaudio>=2.1.0     # Audio utilities for PyTorch
+
+# =========================
+# Whisper & Transformers
+# =========================
+transformers>=4.44.2          # Whisper + Hugging Face support
+accelerate>=0.33.0            # Multi-GPU optimization & efficient inference
+
+# =========================
+# Audio I/O & Processing
+# =========================
+soundfile>=0.12.1
+librosa>=0.10.2               # Optional: advanced audio features
+
+# =========================
+# Data Handling & Utilities
+# =========================
+pandas>=2.2.2
+numpy>=1.26.4
+tqdm>=4.66.5
+requests>=2.31.0              # For downloading data (fixed as versioned)
+python-Levenshtein>=0.25.0    # Already useful for error metrics (keep)
+
+# =========================
+# Evaluation (optional, used later)
+# =========================
+jiwer>=3.0.3                  # Word Error Rate
+indic-nlp-library==0.81      # Phoneme transliteration
+
+# =========================
+# Visualization (later phase)
+# =========================
+matplotlib>=3.9.2
+seaborn>=0.13.2
